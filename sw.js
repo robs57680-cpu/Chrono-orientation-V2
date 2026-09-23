@@ -1,5 +1,5 @@
 // Service worker : garde l'appli en mémoire pour qu'elle s'ouvre sans internet.
-const CACHE = 'chrono-orientation-v1';
+const CACHE = 'chrono-orientation-v3';
 const FILES = ['./', './index.html'];
 
 self.addEventListener('install', e => {
